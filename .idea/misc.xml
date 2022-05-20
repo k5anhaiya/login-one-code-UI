@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Anupam Singh/AndroidStudioProjects/loginonecode/app/src/main/res/drawable/border.xml" value="0.156" />
+        <entry key="..\:/Users/Anupam Singh/AndroidStudioProjects/loginonecode/app/src/main/res/drawable/loginbounded.xml" value="0.156" />
+        <entry key="..\:/Users/Anupam Singh/AndroidStudioProjects/loginonecode/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Anupam Singh/AndroidStudioProjects/loginonecode/app/src/main/res/layout/activity_signup.xml" value="0.176" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/loginonecode/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/loginonecode/app/src/main/res/layout/activity_signup.xml" value="0.15" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1065" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1065" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/drawable/loginbounded.xml" value="0.12" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/layout/activity_grid.xml" value="0.20416666666666666" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/layout/activity_signup.xml" value="0.18" />
+        <entry key="..\:/anupam  code/loginonecode/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_X" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.264" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

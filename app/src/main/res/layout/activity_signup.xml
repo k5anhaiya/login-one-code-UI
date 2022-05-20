@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.signup"
+    android:background="@drawable/background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#87A388"
+                android:text="Login" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="#87A388"
+                android:text="Sign Up" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/border"
+        android:maxLines="1"
+        android:maxLength="30"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Full name"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:inputType="number"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/ic_baseline_phone_android_24"
+        android:hint="Mobile number"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/border"
+        android:maxLines="1"
+        android:maxLength="20"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="Email address(optional)"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/border"
+        android:maxLines="1"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/ic_baseline_supervisor_account_24"
+        android:hint="Referal code(optional)"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/ic_baseline_check_box_24"
+        android:hint="By clicking Sign up,you agree to our Terms and condition "
+        android:textColor="#074E0A" />
+
+    <TextView
+        android:id="@+id/chatsupport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Chat Support"
+        android:textSize="20dp"
+        android:textColor="#074E0A"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="160dp"
+        android:drawableLeft="@drawable/ic_baseline_chat_24"/>
+
+    <Button
+        android:id="@+id/signup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="#87A388"
+        android:text="Sign up" />
+
+</LinearLayout>
